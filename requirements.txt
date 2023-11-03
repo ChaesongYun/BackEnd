@@ -6,11 +6,9 @@ charset-normalizer==3.3.2
 cryptography==41.0.5
 defusedxml==0.7.1
 Django==3.2.4
-django-allauth==0.58.1
 django-bootstrap-v5==1.0.11
 django-debug-toolbar==4.2.0
 django-extensions==3.2.3
-django-rest-auth==0.9.5
 django-taggit==4.0.0
 djangorestframework==3.14.0
 fontawesomefree==6.4.2
