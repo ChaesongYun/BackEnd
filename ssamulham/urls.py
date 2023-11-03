@@ -19,13 +19,6 @@ from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    # path('shops/', include('shops.urls')),
-    # path('presents/', include('presents.urls')),
-    
-    # 회원가입
-    # path('rest-auth/', include('rest_auth.urls')),
-    # path('rest-auth/registration/', include('rest_auth.registration.urls')),
-    
     # 디버깅 툴바
     path('__debug__/', include('debug_toolbar.urls')),
 ]
