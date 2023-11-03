@@ -44,7 +44,6 @@ INSTALLED_APPS = [
     # rest_api
     'rest_framework',
     'rest_framework.authtoken',
-    'rest_auth', 
     
     # django
     'django.contrib.admin',
@@ -53,13 +52,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    
-    # 회원가입
-    "django.contrib.sites",
-    'allauth',
-    'allauth.account',
-    'allauth.socialaccount',
-    'rest_auth.registration',
 ]
 
 SITE_ID = 1
